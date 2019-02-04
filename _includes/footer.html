@@ -1,27 +1,14 @@
-    <!--Footer-->
-    <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+<footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+    <div class="py-4">
+        <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
+            <i class="fab fa-facebook-f mr-3"></i>
+        </a>
 
-        <!-- Social icons -->
-        <div class="py-4">
-            <a href="https://www.facebook.com/mdbootstrap" target="_blank">
-                <i class="fab fa-facebook-f mr-3"></i>
-            </a>
-
-            <a href="https://twitter.com/MDBootstrap" target="_blank">
-                <i class="fab fa-twitter mr-3"></i>
-            </a>
-
-            <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-                <i class="fab fa-google-plus-g mr-3"></i>
-            </a>
-        </div>
-        <!-- Social icons -->
-
-        <!--Copyright-->
-        <div class="footer-copyright py-3">
-            &copy; 20{{ site.time | date: '%y' }} {{ site.legalName }} | Org.nr {{ site.orgNr }}
-        </div>
-        <!--/.Copyright-->
-
-    </footer>
-    <!--/.Footer-->
+        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+            <i class="fab fa-twitter mr-3"></i>
+        </a>
+    </div>
+    <div class="footer-copyright py-3">
+        &copy; 20{{ site.time | date: '%y' }} {{ site.legalName }} | Org.nr {{ site.orgNr }}
+    </div>
+</footer>
