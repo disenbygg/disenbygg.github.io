@@ -1,0 +1,22 @@
+title: Disen Bygg
+email: kontakt@disenbygg.no
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "http://disenbygg.no"
+
+legalName: DISEN BYGG AS
+orgNr: 997 979 230
+
+# Sosial media
+facebook_username: disenbygg
+google_plus_username: disenbygg
+twitter_username: disenbygg
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
