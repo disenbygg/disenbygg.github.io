@@ -13,3 +13,10 @@ html, body, .view {
 .carousel .carousel-inner .carousel-item, .carousel .carousel-inner .active {
       height: 100%; 
 }
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
+}

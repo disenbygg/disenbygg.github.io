@@ -1,7 +1,7 @@
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark white orange darken-4 scrolling-navbar">
+        <nav class="navbar navbar-static-top navbar-expand-lg navbar-dark white orange darken-4 scrolling-navbar">
             <div class="container">
-                <a class="navbar-brand waves-effect" href="#page-top">
+                <a class="navbar-brand waves-effect" href="{{ '/#page-top' | relative_url }}">
                     <i class="fac fa-disen-bygg" style="height: 48px"></i>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -12,10 +12,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-                            <a class="nav-link waves-effect" href="#about">Om oss</a>
+                            <a class="nav-link waves-effect" href="{{ '/#about' | relative_url }}">Om oss</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect" href="#projects">Prosjekter</a>
+                            <a class="nav-link waves-effect" href="{{ '/#projects' | relative_url }}">Prosjekter</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link waves-effect" href="#contact">Kontakt</a>

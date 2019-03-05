@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="no">
     {% include head.html %}
-    <body id="page-top" class="mdb-color darken-4">
+    <body id="page-top">
     {% include nav.html %}
-	{% include main.html %}
+	<main>
+        {% include about.html %}
+        {% include projects.html %}
+        {% include contact.html %}
+    </main>
     {% include footer.html %}
-    {% include modals.html %}
     {% include js.html %}
     </body>
 </html>
