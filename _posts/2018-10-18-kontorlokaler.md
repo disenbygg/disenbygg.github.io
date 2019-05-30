@@ -1,75 +1,101 @@
 ---
 layout: post
 title: "Kontorlokaler Huseiernes Landsforbund"
-description: ""
-cardImg: "assets/img/posts/2018-10-18-kontorlokaler/019.jpg"
+
+cardImg: {
+	lg: "assets/img/posts/2018-10-18-kontorlokaler/019_lg.jpg",
+	md: "assets/img/posts/2018-10-18-kontorlokaler/019_md.jpg",
+	sm: "assets/img/posts/2018-10-18-kontorlokaler/019_sm.jpg"
+}
 images: [
     {
-        src: "assets/img/posts/2018-10-18-kontorlokaler/001.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/001_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/001_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/001_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/002.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/002_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/002_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/002_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/003.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/003_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/003_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/003_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/004.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/004_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/004_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/004_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/005.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/005_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/005_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/005_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/006.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/006_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/006_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/006_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/007.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/007_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/007_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/001_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/008.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/008_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/008_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/008_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/009.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/009_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/009_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/009_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/010.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/010_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/010_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/010_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/011.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/011_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/011_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/011_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/012.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/012_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/012_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/012_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/013.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/013_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/013_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/013_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/014.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/014_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/014_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/014_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/015.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/015_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/015_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/015_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/016.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/016_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/016_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/016_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/017.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/017_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/017_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/017_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/018.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/018_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/018_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/018_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/019.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/019_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/019_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/019_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/020.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/020_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/020_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/020_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/021.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/021_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/021_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/021_sm.jpg"
     },{
-        src: "assets/img/posts/2018-10-18-kontorlokaler/022.jpg",
-        description: ""
+        lg: "assets/img/posts/2018-10-18-kontorlokaler/022_lg.jpg",
+        md: "assets/img/posts/2018-10-18-kontorlokaler/022_md.jpg",
+		sm: "assets/img/posts/2018-10-18-kontorlokaler/022_sm.jpg"
     }
 ]
 ---

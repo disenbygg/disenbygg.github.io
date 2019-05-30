@@ -8,10 +8,16 @@
             </div>
             <div class="row wow fadeIn">
                 {% for post in site.posts %}
-                <div class="col-lg-4 col-md-6">
+                <div class="col-md-6 py-4">
                     <div class="card">
                         <div class="view overlay">
-                            <img class="card-img-top" src="{{ post.cardImg }}" style="width:100%;height: auto;">
+							<picture>
+								<source class="card-img-top" media="(min-width: 992px)" srcset="{{ post.cardImg.lg | relative_url }}">
+								<source class="card-img-top" media="(min-width: 768px)" srcset="{{ post.cardImg.md | relative_url }}">
+								<source class="card-img-top" media="(min-width: 576px)" srcset="{{ post.cardImg.sm | relative_url }}">
+								<source class="card-img-top" media="(max-width: 575px)" srcset="{{ post.cardImg.sm | relative_url }}">
+								<img class="card-img-top" src="{{ post.cardImg.lg | relative_url }}">
+							</picture>
                             <a href="{{ post.url }}">
                                 <div class="mask rgba-white-slight"></div>
                             </a>
