@@ -5,13 +5,13 @@ html, body, .view {
 
 /* Full Page Carousel itself*/
 .carousel {
-  height: 100%;
+	height: 100%;
 }
 .carousel .carousel-inner {
     height: 100%; 
 }
 .carousel .carousel-inner .carousel-item, .carousel .carousel-inner .active {
-      height: 100%; 
+	height: 100%; 
 }
 
 a.anchor {
@@ -19,4 +19,16 @@ a.anchor {
     position: relative;
     top: -75px;
     visibility: hidden;
+}
+
+.disen-bygg-color {
+	background-color: #b5b0ad !important;
+}
+
+.disen-bygg-color.inverted {
+	background-color: #4a4f52 !important;
+}
+
+footer.page-footer .footer-copyright.footer-black {
+	background-color: #000 !important;
 }

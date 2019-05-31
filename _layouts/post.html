@@ -3,12 +3,13 @@
     {% include head.html %}
     <body id="page-top">
     {% include nav.html %}
-    <div class="container-fluid mdb-color darken-4 py-4 text-white">
+    <div class="container-fluid py-4 white">
         <div class="container">
             <section>
-                    <div class="row wow fadeIn">
+                    <div class="row">
                         <div class="col-lg-12">
                             <h2 class="h2 text-center">{{ page.title }}</h2>
+							<hr>
                         </div>
                     </div>
             </section>
@@ -17,7 +18,7 @@
     <div class="container-fluid py-4 white">
         <div class="container">
             <section>
-                    <div class="row wow fadeIn">
+                    <div class="row">
                         {% for img in page.images %}
                         <div class="col-md-6 py-4">
                             <div class="card">
@@ -52,9 +53,7 @@
             </section>
         </div>
     </div>
-    {% include contact.html %}
     {% include footer.html %}
-    {% include modals.html %}
     {% include js.html %}
     </body>
 </html>
