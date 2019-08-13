@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="no">
+    {% include head.html %}
+    <body id="page-top" style="background-color: #eee;">
+    {% include nav.html %}
+	<main>
+		<div class="container-fluid py-4">
+			<div class="row" style="margin-top: -100px;">
+				<div class="col-md-12">
+					<div class="card pb-5 mx-md-3">
+						<div class="card-body">
+							<div class="container">
+								<h1 class="text-center h1 pt-4 mb-3">
+									<strong>Kontakt</strong>
+								</h1>
+								<div class="row pt-5">
+									<div class="col-lg-4 col-md-6 text-center">
+										<a href="tel: {{ site.phone }}" style="color: black;">
+											<i class="fas fa-phone" style="font-size: 48px;"></i>
+										</a>
+										<br>
+										<p style="padding-top: 10px;">{{ site.phone }}</p>
+									</div>
+									<div class="col-lg-4 col-md-6 text-center">
+										<a href="mailto: {{ site.email }}" style="color: black;">
+											<i class="fas fa-envelope" style="font-size: 48px;"></i>
+										</a>
+										<br>
+										<p style="padding-top: 10px;">{{ site.email }}</p>
+									</div>
+									<div class="col-lg-4 col-md-6 text-center">
+										<a href="{{ site.google_maps_link }}" style="color: black;">
+											<i class="fas fa-map-marker-alt" style="font-size: 48px;"></i>
+										</a>
+										<br>
+										<p style="padding-top: 10px;">{{ site.address }}</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				 </div>
+			</div>
+		</div>
+    </main>
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>

@@ -1,58 +1,50 @@
 <!DOCTYPE html>
 <html lang="no">
     {% include head.html %}
-    <body id="page-top">
+    <body id="page-top" style="background-color: #eee;">
     {% include nav.html %}
-    <div class="container-fluid py-4 white">
-        <div class="container">
-            <section>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h2 class="h2 text-center">{{ page.title }}</h2>
-							<hr>
-                        </div>
-                    </div>
-            </section>
-        </div>
-    </div>
-    <div class="container-fluid py-4 white">
-        <div class="container">
-            <section>
-                    <div class="row">
-                        {% for img in page.images %}
-                        <div class="col-md-6 py-4">
-                            <div class="card">
-                                <div class="view overlay">
-									<picture>
-										<source class="card-img-top" media="(min-width: 992px)" srcset="{{ img.lg | relative_url }}">
-										<source class="card-img-top" media="(min-width: 768px)" srcset="{{ img.md | relative_url }}">
-										<source class="card-img-top" media="(min-width: 576px)" srcset="{{ img.sm | relative_url }}">
-										<source class="card-img-top" media="(max-width: 575px)" srcset="{{ img.sm | relative_url }}">
-										<img class="card-img-top" src="{{ img.lg | relative_url }}">
-									</picture>
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-								{% if img.description %}
-								<div class="card-body text-center">
-                                    <p class="card-text">{{ img.description }}</p>
-                                </div>
-								{% endif %}
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-            </section>
-        </div>
-    </div>
-    <div class="container-fluid py-4 white">
-        <div class="container">
-            <section>
-                {{ content }}
-            </section>
-        </div>
-    </div>
+	<main>
+		<div class="container-fluid py-4">
+			<div class="row" style="margin-top: -100px;">
+				<div class="col-md-12">
+					<div class="card pb-5 mx-md-3">
+						<div class="card-body">
+							<div class="container">
+								<h1 class="text-center h1 pt-4 mb-3">
+									<strong>{{ page.title }}</strong>
+								</h1>
+								<div class="row pt-5">
+								{% for img in page.images %}
+								<div class="col-md-6 py-4">
+									<div class="card">
+										<div class="view overlay">
+											<picture>
+												<source class="card-img-top" media="(min-width: 992px)" srcset="{{ img.lg | relative_url }}">
+												<source class="card-img-top" media="(min-width: 768px)" srcset="{{ img.md | relative_url }}">
+												<source class="card-img-top" media="(min-width: 576px)" srcset="{{ img.sm | relative_url }}">
+												<source class="card-img-top" media="(max-width: 575px)" srcset="{{ img.sm | relative_url }}">
+												<img class="card-img-top" src="{{ img.lg | relative_url }}">
+											</picture>
+											<a>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										{% if img.description %}
+										<div class="card-body text-center">
+											<p class="card-text">{{ img.description }}</p>
+										</div>
+										{% endif %}
+									</div>
+								</div>
+								{% endfor %}
+								</div>
+							</div>
+						</div>
+					</div>
+				 </div>
+			</div>
+		</div>
+	</main>
     {% include footer.html %}
     {% include js.html %}
     </body>
